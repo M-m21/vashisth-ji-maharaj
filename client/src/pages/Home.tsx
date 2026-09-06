@@ -169,14 +169,18 @@ export default function Home() {
 
         <section id="about" className="about-section section-padding">
           <div className="container about-grid">
-            <div className="about-art" aria-label="पूजा की थाली और दीपक">
-              <div className="about-art-backdrop" />
-              <div className="mandala mandala-one" />
-              <div className="mandala mandala-two" />
-              <div className="about-lamp"><div className="lamp-flame">✦</div><div className="lamp-bowl" /></div>
-              <div className="about-art-label"><span>वशिष्ठ</span><small>परंपरा का प्रकाश</small></div>
-              <span className="art-petal petal-a">✦</span><span className="art-petal petal-b">✦</span><span className="art-petal petal-c">✦</span>
-            </div>
+<div className="about-art" aria-label="वशिष्ठ जी महाराज">
+  <img
+    src="/vashisth-ji-maharaj.jpg.png"
+    alt="वशिष्ठ जी महाराज"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      display: "block",
+    }}
+  />
+</div>
             <div className="about-copy">
               <div className="eyebrow dark-eyebrow"><span className="eyebrow-line" /> हमारा परिचय</div>
               <h2>जहाँ परंपरा मिलती है <em>विश्वास</em> से</h2>
